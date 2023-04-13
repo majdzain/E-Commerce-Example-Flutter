@@ -1,24 +1,37 @@
 # E-Commerce-Example-Flutter
-A flutter e-commerce application for the customers only. Supports authentication operations(Register - Login - Logout), shows the products in the market, purchase and add to the personal shopping cart.
+A flutter e-commerce application for the customers only. Supports authentication operations(Register - Login - Logout), shows the products in the market, purchase and add to the personal shopping cart with two languages Arabic & English.
 
 #### Compatible with **Android, IOS, Web, Windows, MacOS** platforms.
 
 ### Features 🚀
 - Register a new customer, login, logout, and saving the user token.
 - Browse products and show the single product in its own page.
+- Support **Pagination** to divide a document into pages.
 - Add/remove a product to/from the shopping cart.
 - Shows the shopping cart summary, and the purchased products. 
+- Support multiple language **(Arabic - English)**.
+- Adapting screen, sizes and font sizes on different screen sizes.
 
 ## Functional Description
 - Designed in **Clean Architecture Pattern**.
-- The used state-management is [BLoC](https://pub.dev/packages/flutter_bloc).
-- Handle streams using [web_socket_channel](https://pub.dev/packages/web_socket_channel).
+- The used state-management is [Riverpod](https://pub.dev/packages/flutter_riverpod).
+- Localization using [easy_localization](https://pub.dev/packages/easy_localization).
+- Communicate with RESTful API using [dio](https://pub.dev/packages/dio).
+- Modeling using [freezed](https://pub.dev/packages/freezed).
+- Navigation using [fluro](https://pub.dev/packages/fluro).
+- Screen adapting using [flutter_screenutil](https://pub.dev/packages/flutter_screenutil).
 - [get_it](https://pub.dev/packages/get_it) is used for the dependency injection.
 
 ## Screenshots 🎉
-Home  |  Price Goes Down  |  Price Goes Up
+![products-desktop](screenshots/products-desktop2.png) 
+
+Browse Products  |  Register A New Account  |  Login
 :-------------------------:|:-------------------------:|:-------------------------:
-![home](screenshots/home.png)  |  ![screenshot1](screenshots/screenshot1.png)  |  ![screenshot2](screenshots/screenshot2.png)
+![products](screenshots/products2.png)  |  ![register](screenshots/register.png)  |  ![login](screenshots/login.png)
+Show Product Itself  |  Shopping Cart  |  Settings
+![product](screenshots/product.png)  |  ![cart](screenshots/cart.png)  |  ![settings](screenshots/settings.png)
+
+![cart-desktop](screenshots/cart-desktop.png) 
 
 ## Apply With Your Project
 - Add your host and API url to *lib\core\constants\api_config.dart* file. 

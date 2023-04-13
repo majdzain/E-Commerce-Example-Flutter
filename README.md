@@ -34,31 +34,116 @@ Show Product Itself  |  Shopping Cart  |  Settings
 ![cart-desktop](screenshots/cart-desktop.png) 
 
 ## Apply With Your Project
-- Add your host and API url to *lib\core\constants\api_config.dart* file. 
-- Your json data about **Active Symbols**(Used to retrieve the current symbols) that retrieved from the API the single object should contains:
+- Change your base url and other routes in *lib\core\api\api_config.dart* file. 
+- Your json data about **User** that retrieved from the API when send the requests(login - register - checkToken) should contains the keys like below:
 ```
 {
-  "active_symbols": [
-    {
-      "display_name": "AUD Basket",
-      "display_order": 23,
-      "market": "synthetic_index",
-      "market_display_name": "Derived",
-      "spot": 920.717,
-      "symbol": "WLDAUD",
-      "symbol_type": "forex_basket"
-    }
-  ]
+  "data": {
+    "id": 278,
+    "name": "test user",
+    "email": "nae@example.test"
+  }
 }
 ```
-- Your json data about **Tick**(Used to track the symbol price) that retrieved from the API the single object should contains:
+- Your json data about **Product** that retrieved from the API when send the requests(getProductById - getProducts) should contains the keys like below:
 ```
 {
-  "tick": {
-    "id": "417a56af-c9f1-cd25-654d-3c77e9025d18",
-    "quote": 215.4303,
-    "symbol": "R_50"
+  "data": {
+    "id": 1,
+    "title": "Maxime qui incidunt quas nobis porro fugit.",
+    "description": "Asperiores et nihil in sed consequatur at. Quia laboriosam ullam numquam sint unde ipsa eius. Aperiam ad necessitatibus non qui.",
+    "price": {
+      "value": "3764.33",
+      "currency": "SYP",
+      "formatted": "SYP3,764"
+    },
+    "image": {
+      "id": 1,
+      "file_name": "Product-1.png",
+      "conversions": {
+        "small": "https://your_base_url/storage/1/conversions/Product-1-small.png",
+        "medium": "https://your_base_url/storage/1/conversions/Product-1-medium.png",
+        "large": "https://your_base_url/storage/1/conversions/Product-1-large.png",
+        "default": "https://your_base_url/storage/1/conversions/Product-1-default.png"
+      }
+    }
   }
+}
+```
+- Your json data about **Products With Pagination** that retrieved from the API when send the requests(getProducts) should contains the keys like below:
+```
+{
+    "data": [
+        {
+            "id": 1,
+            "title": "Maxime qui incidunt quas nobis porro fugit.",
+            "description": "Asperiores et nihil in sed consequatur at. Quia laboriosam ullam numquam sint unde ipsa eius. Aperiam ad necessitatibus non qui.",
+            "price": {
+                "value": "3764.33",
+                "currency": "SYP",
+                "formatted": "SYP3,764"
+            },
+            "image": {
+                "id": 1,
+                "file_name": "Product-1.png",
+                "conversions": {
+                    "small": "https://your_base_url/storage/1/conversions/Product-1-small.png",
+                    "medium": "https://your_base_url/storage/1/conversions/Product-1-medium.png",
+                    "large": "https://your_base_url/storage/1/conversions/Product-1-large.png",
+                    "default": "https://your_base_url/storage/1/conversions/Product-1-default.png"
+                }
+            }
+        },
+        
+        ...
+    ],
+    "links": {
+        "first": "https://your_base_url/api/product?page=1",
+        "last": "https://your_base_url/api/product?page=4",
+        "prev": null,
+        "next": "https://your_base_url/api/product?page=2"
+    },
+    "meta": {
+        "current_page": 1,
+        "from": 1,
+        "last_page": 4,
+        "links": [
+            {
+                "url": null,
+                "label": "&laquo; Previous",
+                "active": false
+            },
+            {
+                "url": "https://your_base_url/api/product?page=1",
+                "label": "1",
+                "active": true
+            },
+            {
+                "url": "https://your_base_url/api/product?page=2",
+                "label": "2",
+                "active": false
+            },
+            {
+                "url": "https://your_base_url/api/product?page=3",
+                "label": "3",
+                "active": false
+            },
+            {
+                "url": "https://your_base_url/api/product?page=4",
+                "label": "4",
+                "active": false
+            },
+            {
+                "url": "https://your_base_url/api/product?page=2",
+                "label": "Next &raquo;",
+                "active": false
+            }
+        ],
+        "path": "https://your_base_url/api/product",
+        "per_page": "10",
+        "to": 10,
+        "total": 40
+    }
 }
 ```
 - Or you can customize the data retrieved by editing the entities, models, and following files:

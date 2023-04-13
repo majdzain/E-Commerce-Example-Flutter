@@ -35,7 +35,7 @@ Show Product Itself  |  Shopping Cart  |  Settings
 
 ## Apply With Your Project
 - Change your base url and other routes in *lib\core\api\api_config.dart* file. 
-- Your json data about **User** that retrieved from the API when send the requests(login - register - checkToken) should contains the keys like below:
+- Your json data about **User** that retrieved from the API when send the requests (login - register - checkToken) should contains the keys like below:
 ```
 {
   "data": {
@@ -45,7 +45,7 @@ Show Product Itself  |  Shopping Cart  |  Settings
   }
 }
 ```
-- Your json data about **Product** that retrieved from the API when send the requests(getProductById - getProducts) should contains the keys like below:
+- Your json data about **Product** that retrieved from the API when send the requests (getProductById - getProducts) should contains the keys like below:
 ```
 {
   "data": {
@@ -70,7 +70,7 @@ Show Product Itself  |  Shopping Cart  |  Settings
   }
 }
 ```
-- Your json data about **Products With Pagination** that retrieved from the API when send the requests(getProducts) should contains the keys like below:
+- Your json data about **Products With Pagination** that retrieved from the API when send the request (getProducts) should contains the keys like below:
 ```
 {
     "data": [
@@ -118,21 +118,7 @@ Show Product Itself  |  Shopping Cart  |  Settings
                 "label": "1",
                 "active": true
             },
-            {
-                "url": "https://your_base_url/api/product?page=2",
-                "label": "2",
-                "active": false
-            },
-            {
-                "url": "https://your_base_url/api/product?page=3",
-                "label": "3",
-                "active": false
-            },
-            {
-                "url": "https://your_base_url/api/product?page=4",
-                "label": "4",
-                "active": false
-            },
+            ...
             {
                 "url": "https://your_base_url/api/product?page=2",
                 "label": "Next &raquo;",
@@ -146,9 +132,39 @@ Show Product Itself  |  Shopping Cart  |  Settings
     }
 }
 ```
-- Or you can customize the data retrieved by editing the entities, models, and following files:
-* *lib\features\tracker\data\datasources\remote\symbols_remote_datasource.dart*
-* *lib\features\tracker\data\datasources\remote\ticks_remote_datasource.dart*
+- Your json data about **Cart** that retrieved from the API when send the requests (getCart - addToCart - deleteFromCart) should contains the keys like below:
+```
+{
+  "data": {
+    "id": 78,
+    "total": {
+      "value": "11292.99",
+      "currency": "SYP",
+      "formatted": "SYP11,293"
+    },
+    "items": 1,
+    "products": [
+      {
+        "id": 497,
+        "product_id": 1,
+        "total": {
+          "value": "11292.99",
+          "currency": "SYP",
+          "formatted": "SYP11,293"
+        },
+        "unit_price": {
+          "value": "3764.33",
+          "currency": "SYP",
+          "formatted": "SYP3,764"
+        },
+        "total_quantity": 3
+      },
+      ...
+    ]
+  }
+}
+```
+- Or you can customize the data retrieved by editing the *models*, and *remote data sources*
 
 
 

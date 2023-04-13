@@ -164,7 +164,7 @@ Show Product Itself  |  Shopping Cart  |  Settings
   }
 }
 ```
-- Or you can customize the data retrieved by editing the *models*, and *remote data sources*
+- Or you can customize the data retrieved by editing the *models*, and *remote_datasources*
 
 
 

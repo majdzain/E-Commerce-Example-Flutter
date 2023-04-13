@@ -1,0 +1,26 @@
+{
+    "id": 78,
+    "total": {
+        "value": "11292.99",
+        "currency": "SYP",
+        "formatted": "SYP11,293"
+    },
+    "items": 1,
+    "products": [
+        {
+            "id": 497,
+            "product_id": 1,
+            "total": {
+                "value": "11292.99",
+                "currency": "SYP",
+                "formatted": "SYP11,293"
+            },
+            "unit_price": {
+                "value": "3764.33",
+                "currency": "SYP",
+                "formatted": "SYP3,764"
+            },
+            "total_quantity": 3
+        }
+    ]
+}

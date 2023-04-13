@@ -1,0 +1,251 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "title": "Maxime qui incidunt quas nobis porro fugit.",
+            "description": "Asperiores et nihil in sed consequatur at. Quia laboriosam ullam numquam sint unde ipsa eius. Aperiam ad necessitatibus non qui. Non commodi aut blanditiis repudiandae. Et dignissimos laboriosam quas et illum. Cum consectetur aut eos natus.",
+            "price": {
+                "value": "3764.33",
+                "currency": "SYP",
+                "formatted": "SYP3,764"
+            },
+            "image": {
+                "id": 1,
+                "file_name": "Product-1.png",
+                "conversions": {
+                    "small": "https://test.qit.company/storage/1/conversions/Product-1-small.png",
+                    "medium": "https://test.qit.company/storage/1/conversions/Product-1-medium.png",
+                    "large": "https://test.qit.company/storage/1/conversions/Product-1-large.png",
+                    "default": "https://test.qit.company/storage/1/conversions/Product-1-default.png"
+                }
+            }
+        },
+        {
+            "id": 2,
+            "title": "Magni aliquid sequi dignissimos dolor perspiciatis.",
+            "description": "Voluptas voluptates sapiente eligendi enim distinctio architecto. Possimus voluptas ea aut nulla quia. Et rerum culpa qui voluptas maiores ut natus qui. Iste omnis enim ut aut. Esse delectus nemo minus veniam. Nemo autem commodi eos ullam est qui sunt ex. Quae eum rem quis voluptatem quidem ipsum quia quia. Sunt cumque quia repudiandae nobis aut. Necessitatibus doloribus ea sunt id.",
+            "price": {
+                "value": "3290.74",
+                "currency": "SYP",
+                "formatted": "SYP3,291"
+            },
+            "image": {
+                "id": 2,
+                "file_name": "Product-2.png",
+                "conversions": {
+                    "small": "https://test.qit.company/storage/2/conversions/Product-2-small.png",
+                    "medium": "https://test.qit.company/storage/2/conversions/Product-2-medium.png",
+                    "large": "https://test.qit.company/storage/2/conversions/Product-2-large.png",
+                    "default": "https://test.qit.company/storage/2/conversions/Product-2-default.png"
+                }
+            }
+        },
+        {
+            "id": 3,
+            "title": "Reiciendis quibusdam mollitia fugiat placeat nihil nulla.",
+            "description": "Soluta sed vitae mollitia molestiae perferendis consectetur eius. Aliquid consectetur omnis voluptatibus ad. Neque temporibus similique animi natus. Commodi non voluptas voluptates magni et repellat aut iusto. Accusamus autem dolor tenetur placeat totam excepturi. Amet harum quasi necessitatibus dolores ut sit vitae. Necessitatibus architecto consequuntur vel odio qui delectus voluptatem.",
+            "price": {
+                "value": "2865.60",
+                "currency": "SYP",
+                "formatted": "SYP2,866"
+            },
+            "image": {
+                "id": 3,
+                "file_name": "Product-3.png",
+                "conversions": {
+                    "small": "https://test.qit.company/storage/3/conversions/Product-3-small.png",
+                    "medium": "https://test.qit.company/storage/3/conversions/Product-3-medium.png",
+                    "large": "https://test.qit.company/storage/3/conversions/Product-3-large.png",
+                    "default": "https://test.qit.company/storage/3/conversions/Product-3-default.png"
+                }
+            }
+        },
+        {
+            "id": 4,
+            "title": "Dicta dolores dolor et aut repellat.",
+            "description": "Est voluptas quo voluptatem molestiae aperiam reiciendis culpa. Autem exercitationem autem temporibus similique iste animi eos. Necessitatibus voluptas sed est ullam velit laboriosam. Aut voluptatum alias sunt hic recusandae. Rem nihil dolorum magni cumque quis. Porro aspernatur repellat voluptatem rem iusto id. Et quidem neque distinctio omnis.",
+            "price": {
+                "value": "332.83",
+                "currency": "SYP",
+                "formatted": "SYP333"
+            },
+            "image": {
+                "id": 4,
+                "file_name": "Product-4.png",
+                "conversions": {
+                    "small": "https://test.qit.company/storage/4/conversions/Product-4-small.png",
+                    "medium": "https://test.qit.company/storage/4/conversions/Product-4-medium.png",
+                    "large": "https://test.qit.company/storage/4/conversions/Product-4-large.png",
+                    "default": "https://test.qit.company/storage/4/conversions/Product-4-default.png"
+                }
+            }
+        },
+        {
+            "id": 5,
+            "title": "Non magnam quaerat architecto accusantium esse.",
+            "description": "Et cumque facilis earum quibusdam placeat. Aperiam id est consequuntur non accusantium. Cumque id quae eaque iusto aspernatur sit. Suscipit ipsum dolores sed rerum dolores consequuntur. Quis debitis aut nulla repudiandae unde. Quos repellat cum mollitia. Voluptatem vitae possimus ipsam veniam maiores. Quasi praesentium molestias ea a. Rerum natus laborum beatae blanditiis.",
+            "price": {
+                "value": "2342.74",
+                "currency": "SYP",
+                "formatted": "SYP2,343"
+            },
+            "image": {
+                "id": 5,
+                "file_name": "Product-5.png",
+                "conversions": {
+                    "small": "https://test.qit.company/storage/5/conversions/Product-5-small.png",
+                    "medium": "https://test.qit.company/storage/5/conversions/Product-5-medium.png",
+                    "large": "https://test.qit.company/storage/5/conversions/Product-5-large.png",
+                    "default": "https://test.qit.company/storage/5/conversions/Product-5-default.png"
+                }
+            }
+        },
+        {
+            "id": 6,
+            "title": "Earum eveniet et deserunt error.",
+            "description": "Nulla sint eum neque ipsum quis sapiente. Ut voluptates suscipit commodi omnis omnis laudantium. Provident sit ipsa quia aut optio rem ab. Perspiciatis pariatur maiores officiis numquam aut dolores dolores.",
+            "price": {
+                "value": "3611.61",
+                "currency": "SYP",
+                "formatted": "SYP3,612"
+            },
+            "image": {
+                "id": 6,
+                "file_name": "Product-6.png",
+                "conversions": {
+                    "small": "https://test.qit.company/storage/6/conversions/Product-6-small.png",
+                    "medium": "https://test.qit.company/storage/6/conversions/Product-6-medium.png",
+                    "large": "https://test.qit.company/storage/6/conversions/Product-6-large.png",
+                    "default": "https://test.qit.company/storage/6/conversions/Product-6-default.png"
+                }
+            }
+        },
+        {
+            "id": 7,
+            "title": "Sequi tenetur unde recusandae sapiente nesciunt ea.",
+            "description": "Impedit officiis eveniet et libero vero quia. Eos consectetur est dolore et voluptatem natus ducimus. Consequatur a labore voluptate et voluptatem nesciunt molestiae. Et laudantium voluptate dolor aut explicabo. Omnis sed omnis consequatur sunt voluptatem sint ducimus. Qui ea aspernatur qui deserunt eius voluptate.",
+            "price": {
+                "value": "619.51",
+                "currency": "SYP",
+                "formatted": "SYP620"
+            },
+            "image": {
+                "id": 7,
+                "file_name": "Product-7.png",
+                "conversions": {
+                    "small": "https://test.qit.company/storage/7/conversions/Product-7-small.png",
+                    "medium": "https://test.qit.company/storage/7/conversions/Product-7-medium.png",
+                    "large": "https://test.qit.company/storage/7/conversions/Product-7-large.png",
+                    "default": "https://test.qit.company/storage/7/conversions/Product-7-default.png"
+                }
+            }
+        },
+        {
+            "id": 8,
+            "title": "Minima illum inventore consequatur iste nihil eius aut.",
+            "description": "Ipsum voluptas veniam ut fuga voluptatibus minima et. Vero ullam sed harum dolores numquam qui. Esse odit iure in impedit. Sit inventore commodi optio ratione sequi. Quos quibusdam praesentium et iure incidunt dolor. Et sunt ipsam dolorem facilis porro. Sunt quia ut cupiditate. Molestiae est quam quia fugiat dolorum nobis. Suscipit consequatur ratione eligendi dolorum eveniet ut.",
+            "price": {
+                "value": "3871.84",
+                "currency": "SYP",
+                "formatted": "SYP3,872"
+            },
+            "image": {
+                "id": 8,
+                "file_name": "Product-8.png",
+                "conversions": {
+                    "small": "https://test.qit.company/storage/8/conversions/Product-8-small.png",
+                    "medium": "https://test.qit.company/storage/8/conversions/Product-8-medium.png",
+                    "large": "https://test.qit.company/storage/8/conversions/Product-8-large.png",
+                    "default": "https://test.qit.company/storage/8/conversions/Product-8-default.png"
+                }
+            }
+        },
+        {
+            "id": 9,
+            "title": "Voluptate nihil vitae doloribus necessitatibus qui unde.",
+            "description": "Eum in distinctio quis mollitia eos sed. Nostrum et molestias debitis earum. Consequatur non accusamus perspiciatis ducimus aut est modi. Quas occaecati quibusdam nulla molestias quod ipsam sequi. Nesciunt expedita minima illum pariatur voluptas qui recusandae. Voluptatem ut non ut. Ex reiciendis velit odio illum commodi distinctio. Dolorem non voluptas et veniam architecto tenetur.",
+            "price": {
+                "value": "1056.56",
+                "currency": "SYP",
+                "formatted": "SYP1,057"
+            },
+            "image": {
+                "id": 9,
+                "file_name": "Product-9.png",
+                "conversions": {
+                    "small": "https://test.qit.company/storage/9/conversions/Product-9-small.png",
+                    "medium": "https://test.qit.company/storage/9/conversions/Product-9-medium.png",
+                    "large": "https://test.qit.company/storage/9/conversions/Product-9-large.png",
+                    "default": "https://test.qit.company/storage/9/conversions/Product-9-default.png"
+                }
+            }
+        },
+        {
+            "id": 10,
+            "title": "Libero excepturi quasi ad consequatur.",
+            "description": "Ut aut quia quisquam ut nesciunt officiis velit. Id quam excepturi quos voluptas voluptatum veritatis quis consequatur. Quo autem provident voluptatibus omnis quasi minus. Aut maxime ea perspiciatis qui earum et.",
+            "price": {
+                "value": "3659.74",
+                "currency": "SYP",
+                "formatted": "SYP3,660"
+            },
+            "image": {
+                "id": 10,
+                "file_name": "Product-10.png",
+                "conversions": {
+                    "small": "https://test.qit.company/storage/10/conversions/Product-10-small.png",
+                    "medium": "https://test.qit.company/storage/10/conversions/Product-10-medium.png",
+                    "large": "https://test.qit.company/storage/10/conversions/Product-10-large.png",
+                    "default": "https://test.qit.company/storage/10/conversions/Product-10-default.png"
+                }
+            }
+        }
+    ],
+    "links": {
+        "first": "https://test.qit.company/api/product?page=1",
+        "last": "https://test.qit.company/api/product?page=4",
+        "prev": null,
+        "next": "https://test.qit.company/api/product?page=2"
+    },
+    "meta": {
+        "current_page": 1,
+        "from": 1,
+        "last_page": 4,
+        "links": [
+            {
+                "url": null,
+                "label": "&laquo; Previous",
+                "active": false
+            },
+            {
+                "url": "https://test.qit.company/api/product?page=1",
+                "label": "1",
+                "active": true
+            },
+            {
+                "url": "https://test.qit.company/api/product?page=2",
+                "label": "2",
+                "active": false
+            },
+            {
+                "url": "https://test.qit.company/api/product?page=3",
+                "label": "3",
+                "active": false
+            },
+            {
+                "url": "https://test.qit.company/api/product?page=4",
+                "label": "4",
+                "active": false
+            },
+            {
+                "url": "https://test.qit.company/api/product?page=2",
+                "label": "Next &raquo;",
+                "active": false
+            }
+        ],
+        "path": "https://test.qit.company/api/product",
+        "per_page": "10",
+        "to": 10,
+        "total": 40
+    }
+}

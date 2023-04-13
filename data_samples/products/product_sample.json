@@ -1,0 +1,20 @@
+{
+    "id": 1,
+    "title": "Maxime qui incidunt quas nobis porro fugit.",
+    "description": "Asperiores et nihil in sed consequatur at. Quia laboriosam ullam numquam sint unde ipsa eius. Aperiam ad necessitatibus non qui. Non commodi aut blanditiis repudiandae. Et dignissimos laboriosam quas et illum. Cum consectetur aut eos natus.",
+    "price": {
+        "value": "3764.33",
+        "currency": "SYP",
+        "formatted": "SYP3,764"
+    },
+    "image": {
+        "id": 1,
+        "file_name": "Product-1.png",
+        "conversions": {
+            "small": "https://test.qit.company/storage/1/conversions/Product-1-small.png",
+            "medium": "https://test.qit.company/storage/1/conversions/Product-1-medium.png",
+            "large": "https://test.qit.company/storage/1/conversions/Product-1-large.png",
+            "default": "https://test.qit.company/storage/1/conversions/Product-1-default.png"
+        }
+    }
+}

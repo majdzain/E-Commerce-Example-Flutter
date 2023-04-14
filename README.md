@@ -31,7 +31,7 @@ Browse Products  |  Register A New Account  |  Login
 Show Product Itself  |  Shopping Cart  |  Settings
 ![product](screenshots/product.png)  |  ![cart](screenshots/cart.png)  |  ![settings](screenshots/settings.png)
 
-![cart-desktop](screenshots/cart-desktop.png) 
+![cart-desktop](screenshots/add-to-cart-desktop.png) 
 
 ## Apply With Your Project
 - Change your base url and other routes in *lib\core\api\api_config.dart* file. 

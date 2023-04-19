@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 class CColors {
   static const Color brown = Color(0xFF443424);
-  static const Color orange = Color(0xFFFCB43C);
-  static const Color blue = Color(0xFF5DADE2);
+  static const Color orange = Color(0xFF5DADE2);
+  static const Color blue = Color(0xFFFCB43C);
   static const Color yellow = Color(0xFFFFBF00);
   static const Color backOrange = Color(0xFFFAF6E3);
   static const Color backBrown = Color(0x9CFEE3BC);

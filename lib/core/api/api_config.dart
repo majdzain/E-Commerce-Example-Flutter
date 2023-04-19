@@ -1,5 +1,5 @@
 class ApiConfig {
-  static const String baseUrl = '<your-base-url>';
+  static const String baseUrl = 'https://test.qit.company/api/';
   static const String register = 'user/register';
   static const String login = 'user/login';
   static const String logout = 'user/logout';

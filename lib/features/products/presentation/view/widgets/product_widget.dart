@@ -67,7 +67,10 @@ class ProductWidget extends StatelessWidget {
               maxLines: 2,
               textAlign: TextAlign.center,
               overflow: TextOverflow.ellipsis,
-              style: TextStyle(fontSize: 16.sp, fontWeight: FontWeight.normal),
+              style: TextStyle(
+                  fontSize: 16.sp,
+                  color: Colors.black,
+                  fontWeight: FontWeight.normal),
             ),
           ),
           Row(

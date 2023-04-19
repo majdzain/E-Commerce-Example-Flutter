@@ -104,7 +104,9 @@ class _CartItemWidgetState extends ConsumerState<CartItemWidget> {
                         textAlign: TextAlign.center,
                         overflow: TextOverflow.ellipsis,
                         style: TextStyle(
-                            fontSize: 15.sp, fontWeight: FontWeight.normal),
+                            color: Colors.black,
+                            fontSize: 15.sp,
+                            fontWeight: FontWeight.normal),
                       ),
                     )
                   : Container(),

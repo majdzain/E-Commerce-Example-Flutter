@@ -1,5 +1,5 @@
 # E-Commerce-Example-Flutter
-A flutter e-commerce application for the customers only. Supports authentication operations(Register - Login - Logout), shows the products in the market, purchase and add to the personal shopping cart with two languages Arabic & English.
+A flutter e-commerce application for the customers only with two languages Arabic & English which shows the products in the market, and Supports authentication operations(Register - Login - Logout), purchase, and add to the personal shopping cart.
 
 #### Compatible with **Android, IOS, Web, Windows, MacOS** platforms.
 
@@ -31,7 +31,7 @@ Browse Products  |  Register A New Account  |  Login
 Show Product Itself  |  Shopping Cart  |  Settings
 ![product](screenshots/product.png)  |  ![cart](screenshots/cart.png)  |  ![settings](screenshots/settings.png)
 
-![cart-desktop](screenshots/cart-desktop.png) 
+![cart-desktop](screenshots/add-to-cart-desktop.png) 
 
 ## Apply With Your Project
 - Change your base url and other routes in *lib\core\api\api_config.dart* file. 
